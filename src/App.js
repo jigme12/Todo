@@ -42,7 +42,7 @@ class App extends Component {
   //addTodo
   addTodo=(title)=> {
     const newTodo={
-      id:4,
+      id:v4(),
       title,
       completed: false
     }
